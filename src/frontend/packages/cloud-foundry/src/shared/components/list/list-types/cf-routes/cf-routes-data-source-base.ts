@@ -88,7 +88,7 @@ export abstract class CfRoutesDataSourceBase extends CFListDataSource<APIResourc
           }
           const entity: ListCfRoute = {
             ...route.entity,
-            url: getRoute(route.entity.port, route.entity.host, route.entity.path, true, false, route.entity.domain.entity.name),
+            url: getRoute(route.entity.port, route.entity.host, route.entity.path, true, true, route.entity.domain.entity.name),
             isTCPRoute: isTCPRoute(route.entity.port)
           };
 

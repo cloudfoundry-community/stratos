@@ -262,7 +262,7 @@ export class ApplicationService {
         return nonTCPRoutes[0] || null;
       }),
       map(entRoute => !!entRoute && !!entRoute && !!entRoute.domain ?
-        getRoute(entRoute.port, entRoute.host, entRoute.path, true, false, entRoute.domain.name) :
+        getRoute(entRoute.port, entRoute.host, entRoute.path, true, true, entRoute.domain.name) :
         null
       )
     );
