@@ -18,7 +18,7 @@ export class TableCellRouteComponent extends TableCellCustom<APIResource<ListCfR
     const route = this.row.entity;
     if (route) {
       this.isRouteTCP = isTCPRoute(route.port);
-      this.routeUrl = getRoute(route.port, route.host, route.path, !this.isRouteTCP, false, route.domain.entity.name);
+      this.routeUrl = getRoute(route.port, route.host, route.path, !this.isRouteTCP, true, route.domain.entity.name);
     }
   }
 }
