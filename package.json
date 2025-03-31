@@ -157,7 +157,7 @@
     "karma-chrome-launcher": "~3.1.0",
     "karma-cli": "~2.0.0",
     "karma-coverage": "^2.2.1",
-    "karma-jasmine": "~4.0.0",
+    "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "karma-spec-reporter": "0.0.32",
     "kind-of": "^6.0.3",
